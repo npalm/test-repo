@@ -198,6 +198,7 @@ Below is a basic examples of usages of the module. Regarding the dependencies su
 module "runner" {
   # https://registry.terraform.io/modules/npalm/gitlab-runner/aws/
   source  = "npalm/gitlab-runner/aws"
+  version = "5.5.0"
 
   aws_region  = "eu-west-1"
   environment = "spot-runners"
