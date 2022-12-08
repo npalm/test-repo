@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.7.0](https://github.com/npalm/test-repo/compare/5.6.0...5.7.0) (2022-12-08)
+
+
+### Features
+
+* Test releasing ([#3](https://github.com/npalm/test-repo/issues/3)) ([558cb0a](https://github.com/npalm/test-repo/commit/558cb0a8e503688922156aac144885b713fc74c2))
+
 ## [5.6.0](https://github.com/npalm/test-repo/compare/5.5.0...5.6.0) (2022-12-08)
 
 
