@@ -200,6 +200,7 @@ module "runner" {
   source  = "npalm/gitlab-runner/aws"
   version = "5.6.0"
 
+
   aws_region  = "eu-west-1"
   environment = "spot-runners"
 
