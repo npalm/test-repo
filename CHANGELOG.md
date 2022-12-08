@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.6.0](https://github.com/npalm/test-repo/compare/5.5.0...5.6.0) (2022-12-08)
+
+
+### Bug Fixes
+
+* disable release semantic release ([cf7b530](https://github.com/npalm/test-repo/commit/cf7b530045f6e7b4e08ec3c66d5212615547b0a2))
+
 ## [5.5.0](https://github.com/npalm/terraform-aws-gitlab-runner/compare/5.4.1...5.5.0) (2022-11-27)
 
 
