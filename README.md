@@ -230,12 +230,11 @@ Remove the module from your Terraform code and deregister the runner manually fr
 
 Name clashes due to multi-region deployments for global AWS ressources create by this module (IAM, S3) can be avoided by including a distinguishing region specific prefix via the _cache_bucket_prefix_ string respectively via _name_iam_objects_ in the _overrides_ map. A simple example for this would be to set _region-specific-prefix_ to the AWS region the module is deployed to.
 
-
-
 ```hcl
 module "runner" {
   # https://registry.terraform.io/modules/npalm/gitlab-runner/aws/
   source  = "npalm/gitlab-runner/aws"
+  version = "5.6.0" 
 
   aws_region  = "eu-west-1"
   environment = "spot-runners"
